@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../widgets/header.dart';
-import '../widgets/footer.dart';
 
 class ContactPage extends StatelessWidget {
   final _formKey = GlobalKey<FormState>();

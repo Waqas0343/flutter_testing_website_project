@@ -18,10 +18,10 @@ class Header extends StatelessWidget {
           Text('E-Commerce', style: TextStyle(color: Colors.white, fontSize: 24)),
           Row(
             children: [
-              TextButton(onPressed: () => Get.toNamed(AppPages.HOME), child: Text('Home', style: TextStyle(color: Colors.white))),
-              TextButton(onPressed: () => Get.toNamed(AppPages.ABOUT), child: Text('About', style: TextStyle(color: Colors.white))),
-              TextButton(onPressed: () => Get.toNamed(AppPages.PRODUCTS), child: Text('Products', style: TextStyle(color: Colors.white))),
-              TextButton(onPressed: () => Get.toNamed(AppPages.CONTACT), child: Text('Contact', style: TextStyle(color: Colors.white))),
+              TextButton(onPressed: () => Get.toNamed(AppPages.home), child: Text('Home', style: TextStyle(color: Colors.white))),
+              TextButton(onPressed: () => Get.toNamed(AppPages.about), child: Text('About', style: TextStyle(color: Colors.white))),
+              TextButton(onPressed: () => Get.toNamed(AppPages.products), child: Text('Products', style: TextStyle(color: Colors.white))),
+              TextButton(onPressed: () => Get.toNamed(AppPages.contact), child: Text('Contact', style: TextStyle(color: Colors.white))),
             ],
           )
         ],

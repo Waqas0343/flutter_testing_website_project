@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import '../../data/models/product_model.dart';
 import '../widgets/header.dart';
-import '../widgets/footer.dart';
 import 'package:get/get.dart';
 
 class ProductDetailPage extends StatelessWidget {
   final ProductModel product;
 
-  ProductDetailPage({required this.product});
+  const ProductDetailPage({super.key, required this.product});
 
   @override
   Widget build(BuildContext context) {

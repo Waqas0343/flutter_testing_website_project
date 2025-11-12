@@ -8,7 +8,7 @@ final ThemeData appTheme = ThemeData(
   colorScheme: ColorScheme.fromSwatch().copyWith(secondary: secondaryColor),
   scaffoldBackgroundColor: Colors.white,
   appBarTheme: AppBarTheme(
-    color: primaryColor,
+    backgroundColor: primaryColor,
     elevation: 2,
     iconTheme: IconThemeData(color: Colors.white),
     titleTextStyle: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),
@@ -25,9 +25,9 @@ final ThemeData appTheme = ThemeData(
     ),
   ),
   textTheme: TextTheme(
-    headline1: TextStyle(fontSize: 36, fontWeight: FontWeight.bold, color: Colors.black),
-    headline2: TextStyle(fontSize: 28, fontWeight: FontWeight.bold, color: Colors.black),
-    bodyText1: TextStyle(fontSize: 16, color: Colors.black),
-    bodyText2: TextStyle(fontSize: 14, color: Colors.black87),
+    headlineLarge: TextStyle(fontSize: 36, fontWeight: FontWeight.bold, color: Colors.black),
+    headlineMedium: TextStyle(fontSize: 28, fontWeight: FontWeight.bold, color: Colors.black),
+    bodyLarge: TextStyle(fontSize: 16, color: Colors.black),
+    bodyMedium: TextStyle(fontSize: 14, color: Colors.black87),
   ),
 );

@@ -17,7 +17,7 @@ class ECommerceApp extends StatelessWidget {
       title: "Flutter Web E-Commerce",
       theme: appTheme,
       initialBinding: InitialBinding(),
-      initialRoute: AppPages.HOME,
+      initialRoute: AppPages.home,
       getPages: AppPages.pages,
       debugShowCheckedModeBanner: false,
     );
